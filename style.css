@@ -1,0 +1,12 @@
+.header {
+    text-align: center; 
+    background-color: cadetblue; 
+    margin: 0 auto; 
+    font-family: sans-serif; 
+    padding: 60px; 
+    border: 1px; 
+}
+
+body {
+    margin: 0 auto; 
+}

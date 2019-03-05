@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" 
+        href="style.css"/>
+        <script type="text/javascript" src="main.js"></script>
+        <Title>Country and States</Title>
+    </head>
+    <body>
+        <div class = "header">
+            <h1 id = "header">Country and States</h1>
+        </div>
+        <select id = "countryDropdown" onchange = "fetchAndUpdateStates()">
+            <option value="default">Choose a country</option>
+        </select>
+        <select id = "statesDropdown" onchange = "displayLocation()" disabled>
+            <option value="default">Choose a state</option>
+        </select>
+    </body>
+</html>
